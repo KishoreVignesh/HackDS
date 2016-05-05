@@ -3,6 +3,7 @@
 #include "bubble_sort.c"
 #include <unistd.h>
 #include "insertion_sort.c"
+#include "selection_sort.c"
 
 void printArray(int* a,int size)
 {
@@ -45,16 +46,35 @@ void testInsertionSort(int a[],int size){
 
 }
 
+void testSelectionSort(int a[],int size){
+
+    printf("Testing Selection Sort ascending order:\n");
+
+    printf("Before Selection sort ascending:");
+    printArray(a,size);
+
+    selection_sort(a,size);
+    printf("After Selection sort ascending:");
+    printArray(a,size);
+
+}
+
+
 int main()
 {
     int a[9] = {9,8,1,2,4,5,3,6,7};
+    int b[9] = {1,2,3,4,5,6,7,8,9};
     int o;
 
 
-    //testBubbleSort(a,9);
-    testInsertionSort(a,9);
+    //testBubbleSort(a,9);    // 36 seconds
+    //testBubbleSort(b,9);    // 36 Seconds
+    //testInsertionSort(a,9); // 17 seconds
+    //testInsertionSort(b,9); // 0 seconds
+    //testSelectionSort(a,9); // 08 seconds
+    //testSelectionSort(b,9); // 08 seconds
 
 
-    scanf("%d",&o);
+    //scanf("%d",&o);
     return 0;
 }
