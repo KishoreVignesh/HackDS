@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include "insertion_sort.c"
 #include "selection_sort.c"
+#include "quick_sort.c"
 
 void printArray(int* a,int size)
 {
@@ -59,6 +60,20 @@ void testSelectionSort(int a[],int size){
 
 }
 
+void testQuickSort(int a[],int low,int high,int size){
+
+    printf("Testing Quick Sort ascending order:\n");
+
+    printf("Before Quick sort ascending:");
+    printArray(a,size);
+
+    quick_sort(a,low,high,size);
+    printf("After Quick sort ascending:");
+    printArray(a,size);
+
+}
+
+
 
 int main()
 {
@@ -73,6 +88,7 @@ int main()
     //testInsertionSort(b,9); // 0 seconds
     //testSelectionSort(a,9); // 08 seconds
     //testSelectionSort(b,9); // 08 seconds
+    testQuickSort(a,0,8,9);
 
 
     //scanf("%d",&o);

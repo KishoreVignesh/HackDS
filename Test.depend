@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1462430008 source:/home/kishorevignesh/bkv/Test/main.c
+1462461135 source:/home/kishorevignesh/bkv/Test/main.c
 	<stdio.h>
 	<stdlib.h>
 	"bubble_sort.c"
 	<unistd.h>
 	"insertion_sort.c"
 	"selection_sort.c"
+	"quick_sort.c"
 
 1462415742 source:/home/kishorevignesh/bkv/Test/bubble_sort.c
 
@@ -16,5 +17,8 @@
 	<unistd.h>
 
 1462430090 /home/kishorevignesh/bkv/Test/selection_sort.c
+	<unistd.h>
+
+1462461182 /home/kishorevignesh/bkv/Test/quick_sort.c
 	<unistd.h>
 
