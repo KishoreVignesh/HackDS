@@ -5,6 +5,7 @@
 #include "insertion_sort.c"
 #include "selection_sort.c"
 #include "quick_sort.c"
+#include "merge_sort.c"
 
 void printArray(int* a,int size)
 {
@@ -73,11 +74,24 @@ void testQuickSort(int a[],int low,int high,int size){
 
 }
 
+void testMergeSort(int a[],int low,int high,int size){
+
+    printf("Testing Merge Sort ascending order:\n");
+
+    printf("Before Merge sort ascending:");
+    printArray(a,size);
+
+    merge_sort(a,low,high,size);
+    printf("After Merge sort ascending:");
+    printArray(a,size);
+
+}
+
 
 
 int main()
 {
-    int a[9] = {9,8,1,2,4,5,3,6,7};
+    int a[9] = {9,8,1,4,2,5,3,6,7};
     int b[9] = {1,2,3,4,5,6,7,8,9};
     int o;
 
@@ -88,7 +102,10 @@ int main()
     //testInsertionSort(b,9); // 0 seconds
     //testSelectionSort(a,9); // 08 seconds
     //testSelectionSort(b,9); // 08 seconds
-    testQuickSort(a,0,8,9);
+    //testQuickSort(a,0,8,9); // 21 seconds
+    //testQuickSort(b,0,8,9); // 44 seconds
+    //testMergeSort(a,0,8,9); // 08 seconds
+    testMergeSort(b,0,8,9); // 08 seconds
 
 
     //scanf("%d",&o);
