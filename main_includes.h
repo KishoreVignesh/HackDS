@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "bubble_sort.c"
+#include <unistd.h>
+#include "insertion_sort.c"
+#include "selection_sort.c"
+#include "quick_sort.c"
+#include "merge_sort.c"
+#include "test_sorting.c"
+#include "heap_sort.c"
+#include "test/test_binary_tree_printing.c"
