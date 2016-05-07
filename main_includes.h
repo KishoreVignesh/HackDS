@@ -9,3 +9,4 @@
 #include "test_sorting.c"
 #include "heap_sort.c"
 #include "test/test_binary_tree_printing.c"
+#include "include_problems.h"

@@ -1,5 +1,11 @@
 //Declaration
 
+extern void bubble_sort_asc(int a[],int size);
+extern void insertion_sort(int a[],int size);
+extern void selection_sort(int a[],int size);
+extern void quick_sort (int a[],int low,int high,int size);
+extern void merge_sort (int a[],int low,int high,int size);
+
 void printArray (int* a,int size)
 {
     int i=0;

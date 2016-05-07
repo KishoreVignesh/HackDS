@@ -1,6 +1,7 @@
 
 #include <unistd.h>
 
+extern void printArray (int* a,int size);
 
 void bubble_sort_asc(int a[],int size)
 {

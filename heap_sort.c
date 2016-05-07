@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-
+void checkHeapOrder(struct binary_tree_node * node);
 
 struct binary_tree_node{
  int value;
@@ -16,7 +16,7 @@ struct binary_tree_node* build_binary_tree_from_array(int a[],struct binary_tree
 
     if (currentNode == 0)
     {
-        currentNode=malloc(sizeof(struct binary_tree_node));
+        currentNode=(binary_tree_node *)malloc(sizeof(struct binary_tree_node));
         currentNode->left_child = 0;
         currentNode->right_child = 0;
         currentNode->parent = 0;
@@ -25,7 +25,7 @@ struct binary_tree_node* build_binary_tree_from_array(int a[],struct binary_tree
 
     if (((2*i)+1)<size)
     {
-        struct binary_tree_node *tmpNode = malloc(sizeof(struct binary_tree_node));
+        struct binary_tree_node *tmpNode = (binary_tree_node *)malloc(sizeof(struct binary_tree_node));
         tmpNode->value = 0;
         tmpNode->left_child = 0;
         tmpNode->right_child = 0;
@@ -37,7 +37,7 @@ struct binary_tree_node* build_binary_tree_from_array(int a[],struct binary_tree
 
     if (((2*i)+2)<size)
     {
-        struct binary_tree_node *tmpNode = malloc(sizeof(struct binary_tree_node));
+        struct binary_tree_node *tmpNode = (binary_tree_node *) malloc(sizeof(struct binary_tree_node));
         tmpNode->value = 0;
         tmpNode->left_child = 0;
         tmpNode->right_child = 0;

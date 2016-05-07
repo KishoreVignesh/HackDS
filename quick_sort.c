@@ -1,6 +1,7 @@
 
 #include <unistd.h>
 
+int partition_quick_sort(int a[],int low,int high,int size);
 
 void quick_sort (int a[],int low,int high,int size)
 {

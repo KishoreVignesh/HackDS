@@ -31,10 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="binary_tree.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
 		<Unit filename="bubble_sort.c">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
@@ -43,7 +39,7 @@
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
-		<Unit filename="main.c">
+		<Unit filename="main.cpp">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="main_includes.h">
@@ -58,6 +54,11 @@
 			<Option target="Release" />
 		</Unit>
 		<Unit filename="test/test_binary_tree_printing.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+
+		<Unit filename="problems/problem1.cpp">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>

@@ -18,9 +18,12 @@ int main()
     //testQuickSort(b,0,8,9); // 44 seconds
     //testMergeSort(a,0,8,9); // 08 seconds
     //testMergeSort(b,0,8,9); // 08 seconds
+    //testBinaryTreePrinting(a,9);
 
-    testBinaryTreePrinting(a,9);
 
+
+    // Moving to the problems.
+    problem1_main();
 
     //scanf("%d",&o);
     return 0;

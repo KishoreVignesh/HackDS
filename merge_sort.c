@@ -1,5 +1,6 @@
 
 #include <unistd.h>
+void merge(int a[],int low,int m,int high, int size);
 
 void merge_sort (int a[],int low,int high,int size)
 {
