@@ -1,4 +1,14 @@
 //Declaration
+#ifdef _WIN32
+#include <windows.h>
+
+void sleep(int time)
+{
+    Sleep(time *1000);
+}
+
+
+#endif
 
 extern void bubble_sort_asc(int a[],int size);
 extern void insertion_sort(int a[],int size);
