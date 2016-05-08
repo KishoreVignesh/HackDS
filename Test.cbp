@@ -56,6 +56,9 @@
 		<Unit filename="problems/problem2.cpp">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
+		<Unit filename="problems/problem3.cpp">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
 		</Unit>
 		<Unit filename="quick_sort.c">
 			<Option compilerVar="CC" />
