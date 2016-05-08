@@ -31,8 +31,16 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		
 		<Unit filename="bubble_sort.c">
 			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="heap_sort.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="include_problems.h">
 			<Option target="Release" />
 		</Unit>
 		<Unit filename="insertion_sort.c">
@@ -49,22 +57,11 @@
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
-		<Unit filename="problems/problem1.cpp">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
-		<Unit filename="problems/problem2.cpp">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		<Unit filename="problems/problem3.cpp">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
 		<Unit filename="quick_sort.c">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
-		<Unit filename="test/test_binary_tree_printing.c">
+		<Unit filename="selection_sort.c">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
@@ -72,6 +69,24 @@
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
+		<Unit filename="problems/problem1.cpp">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="problems/problem2.cpp">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>	
+		<Unit filename="problems/problem3.cpp">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		
+		<Unit filename="test/test_binary_tree_printing.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		
 		<Extensions>
 			<code_completion />
 			<debugger />
