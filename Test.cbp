@@ -49,16 +49,19 @@
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
+		<Unit filename="problems/problem1.cpp">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="problems/problem2.cpp">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
 		<Unit filename="quick_sort.c">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
 		<Unit filename="test/test_binary_tree_printing.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
-
-		<Unit filename="problems/problem1.cpp">
 			<Option compilerVar="CC" />
 			<Option target="Release" />
 		</Unit>
@@ -69,6 +72,7 @@
 		<Extensions>
 			<code_completion />
 			<debugger />
+			<envvars />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

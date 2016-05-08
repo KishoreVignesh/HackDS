@@ -23,7 +23,7 @@ int main()
 
 
     // Moving to the problems.
-    problem1_main();
+    problem2_main();
 
     //scanf("%d",&o);
     return 0;
